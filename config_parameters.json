@@ -1,11 +1,18 @@
-{
-    "Parameters": {
-        "KeyName": "fall2024x",
-        "InstanceType": "t2.micro",
-        "SSHLocation": "10.0.0.1/32",
-        "DBName": "wordpressdb",
-        "DBUser": "localdbuser",
-        "DBPassword": "dummypassword",
-        "DBRootPassword": "dummypassword"
-    }
-}
+[
+  {
+    "ParameterKey": "KeyName",
+    "ParameterValue": "WordPressKeyPair"
+  },
+  {
+    "ParameterKey": "DBUser",
+    "ParameterValue": "admin"
+  },
+  {
+    "ParameterKey": "DBPassword",
+    "ParameterValue": "StrongPassword123!"
+  },
+  {
+    "ParameterKey": "DBRootPassword",
+    "ParameterValue": "RootPassword123!"
+  }
+]
